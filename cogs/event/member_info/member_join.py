@@ -15,9 +15,9 @@ class OnJoin(commands.Cog):
     @commands.Cog.listener()
     async def on_meber_join(self, member: disnake.Member):
         if member.bot:
-            await member.add_roles(member.guild.get_role(1418331180062871672))
+            await member.add_roles(member.guild.get_role(config['role']['bot-role']))
         else:
-            await member.add_roles(member.guild.get_role(1434963891820953731))
+            await member.add_roles(member.guild.get_role(config['role']['meber-role']))
 
         embed = disnake.Embed(
             title=f"{member.display_name}",
