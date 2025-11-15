@@ -1,7 +1,6 @@
 import disnake
 import pathlib
 from disnake.ext import commands
-from main import config
 from configparser import ConfigParser
 
 config = ConfigParser()
