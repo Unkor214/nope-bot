@@ -1,1 +1,1 @@
-This discord bot maked only for [**nope**](https://discord.gg/CvAwXSAUUE) discord server, but you can use this bot for you discord server, goodluck
+This discord bot maked only for **[nope](https://discord.gg/CvAwXSAUUE)** discord server, but you can use this bot for you discord server, goodluck

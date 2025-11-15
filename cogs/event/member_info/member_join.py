@@ -17,7 +17,7 @@ class OnJoin(commands.Cog):
         if member.bot:
             await member.add_roles(member.guild.get_role(config['role']['bot-role']))
         else:
-            await member.add_roles(member.guild.get_role(config['role']['meber-role']))
+            await member.add_roles(member.guild.get_role(config['role']['member-role']))
 
         embed = disnake.Embed(
             title=f"{member.display_name}",
